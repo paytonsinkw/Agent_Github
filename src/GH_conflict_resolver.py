@@ -6,7 +6,7 @@ import time
 
 load_dotenv()
 
-# Get variables from environment
+# Get variables from this environment
 GITHUB_API_KEY = os.getenv("GITHUB_API_KEY")
 OWNER = os.getenv("Owner")
 REPO = os.getenv("Repository")
