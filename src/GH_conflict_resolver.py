@@ -11,7 +11,7 @@ GITHUB_API_KEY = os.getenv("GITHUB_API_KEY")
 OWNER = os.getenv("Owner")
 REPO = os.getenv("Repository")
 
-# GitHub API base URL
+# GitHub API base URL below
 BASE_URL = "https://api.github.com"
 HEADERS = {"Authorization": f"token {GITHUB_API_KEY}"}
 
